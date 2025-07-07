@@ -22,5 +22,5 @@ const obj1 = {1: "a", 2: "b"};
 const obj2 = {4: "d", 5: "e"};
 
 // const obj3 = {obj1, obj2}
-const obj3 = Object.assign(obj1, obj2) // Merging obj2 into obj1
+const obj3 = Object.assign({}, obj1, obj2) // Merging obj2 into obj1
 console.log(obj3);
