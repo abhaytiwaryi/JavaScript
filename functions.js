@@ -17,6 +17,6 @@ function addTwoNumbers(num1, num2) {
 
 // addTwoNumbers(5, 10);
 
-const result = addTwoNumbers(5, 10);
+// const result = addTwoNumbers(5, 10);
 // console.log(result);
 
