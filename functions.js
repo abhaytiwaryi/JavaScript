@@ -11,12 +11,41 @@ console.log("A");
 // greet()
 
 
-function addTwoNumbers(num1, num2) {
-  console.log("The sum is: " + (num1 + num2));
+// function addTwoNumbers(num1, num2) {
+
+//   console.log(num1 + num2);
+
+// }
+// function addTwoNumbers(num1, num2) {
+
+//   // let result = num1 + num2
+//   // return result
+//   return num1 + num2
+
+// }
+// const result = addTwoNumbers(4, 9)
+
+// console.log("Result: ", result);
+
+
+function addition(num1, num2) {
+
+  return num1 + num2
+}
+// console.log(addition(5, 10));
+
+function loginUserMessage(username = "Guest") {
+  if(!username){
+    console.log("Username is required to log in.")
+    return
+  }
+  return `${username} has logged in successfully!`
 }
 
-// addTwoNumbers(5, 10);
+// console.log(loginUserMessage("Abhay"))
+// console.log(loginUserMessage(""))
+console.log(loginUserMessage())
 
-// const result = addTwoNumbers(5, 10);
-// console.log(result);
-
+// function loginUserMessage(username) {
+//   return username + " has logged in successfully!"
+// }
